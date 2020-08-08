@@ -1,0 +1,404 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width:100%;
+}
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #292f35;
+  line-height: 1.4;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #8a949f;
+  line-height: 1.4;
+}
+/* MIDDLE SECTİON */
+#middle{
+  position: relative;
+}
+
+.card-first{
+  border-top: 5px solid red !important;
+}
+.col-md-6{
+  padding:50px 0;
+}
+.info{
+  max-width: 80%;
+  margin:0 auto;
+}
+.info h1{
+  max-width: 100% !important;
+  font-size:20px !important;
+}
+.info p{
+  max-width: 100% !important;
+  font-size:14px !important;
+}
+/* BANNER SECTİON */
+#banner{
+  margin:150px 0;
+}
+.col-md-2{
+  margin-top:20px;
+}
+.text-banner p{
+  font-size:14px;
+  text-align: center;
+}
+/* WELCOME SECİTON*/
+#welcome{
+  background-image: url("parallax-bg/bg.png");
+  background-color: #EAF5FE;
+  background: cover;
+  height: 100%;
+  width:100%;
+}
+.header .site-logo{
+  margin-left: 10%;
+}
+.header .col-md-6{
+  margin-top:8%;
+  margin-left:10%;
+}
+.col-md-6 h1{
+  max-width: 80%;
+  font-size: 50px;
+  line-height: 70px;
+}
+.col-md-6 p{
+  max-width: 60%;
+  font-size: 16px;
+  line-height: 1.9;
+}
+.header .call-design{
+  display: inline-block;
+}
+.form-group{
+  position: relative;
+}
+.form-control{
+  padding:30px;
+  display: inline-block;
+}
+.input{
+  max-width:45%;
+  margin-left:10%;
+}
+.header .button{
+  display: inline-block;
+  position: absolute;
+  left:50%;
+  top:10px;
+}
+.header .button-design{
+  margin:0 !important;
+  padding:10px !important;
+  border-radius:4px !important;
+  font-size:14px;
+  font-family: 'Open Sans', sans-serif !important;
+}
+/* NAVBAR */
+.nav-link{
+  color:#8a949f;
+}
+.nav-link:hover{
+  color:#222;
+  transition: 0.7s;
+}
+
+/* CONTENT SECTİON */
+#content{
+  margin:200px 0;
+}
+#content h1 {
+  font-size: 36px;
+}
+
+#content p {
+  font-size: 16px;
+  line-height: 30px;
+}
+#content .row{
+  margin:100px 0;
+}
+.first-box {
+  margin-right: 100px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.first-box img{
+  margin-bottom:30px;
+}
+.second-box{
+  margin-left:100px;
+  margin-right:50px;
+  margin-top:20px;
+}
+.second-box img{
+  margin-bottom:30px;
+}
+/* PRİCİNG SECTİON */
+#pricing {
+  background-color: #FFFFFF;
+}
+
+#pricing .row-table {
+  justify-content: center;
+}
+
+#pricing .col-md-4 {
+  padding: 50px 50px;
+  max-width: 300px;
+}
+
+.row-first h1 {
+  margin-bottom: 25px;
+  font-size: 36px;
+  text-align: center;
+}
+
+.row-table h1 {
+  text-align: left;
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+#pricing .first-p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.col-md-4 p {
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+.row-first {
+  margin: 0 auto;
+}
+
+.shadow {
+  box-shadow: 0 18px 40px;
+}
+
+.header {
+  margin: 0;
+}
+
+.header h1 {
+  margin: 0 !important;
+}
+
+.header span {
+  display: inline-block;
+  color: #1b8bf9;
+  font-size: 12px;
+  text-align: left;
+  margin: 10px 0;
+}
+
+.footer .button-design {
+  display: inline-block;
+  padding: 8px 25px;
+  font-size: 12px;
+  font-family: "Poppins", "Droid Arabic Kufi", sans-serif;
+  font-weight: 400;
+  padding: 16px;
+  border:none;
+  border-radius:10px;
+  background-color:#E4F1FC;
+  color: #fff;
+  margin: 0 !important;
+}
+
+#pricing .row .col-md-12 {
+  max-width: 60%;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.shadow {
+  border-top: 5px solid #1b8bf9;
+  border-radius: 4px;
+}
+
+/* END SECTİON */
+#end-section {
+  padding:150px 0;
+
+    background-color: #EAF5FE !important;
+}
+
+.end-section h1 {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 15px;
+  font-size: 50px;
+  line-height: 1.4;
+}
+
+.end-section p {
+  width: 50%;
+  margin: 28px auto 0;
+  line-height: 1.9;
+}
+
+.button .button-design {
+  font-family: "Poppins", "Droid Arabic Kufi", sans-serif;
+  font-weight: 400;
+  margin: 40px;
+  padding: 16px;
+  border:none;
+  border-radius: 10px;
+  background-color:#117EEB;
+  color:#fff;
+}
+
+.button .button-design:hover {
+  background-color:red;
+  color: #FFF;
+  transition: 0.3s;
+}
+
+.call-design {
+  color: #ff3f3f;
+  background-color: rgba(255, 63, 63, .1);
+  margin-bottom: 14px;
+  padding: 6px 13px;
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 2px;
+  font-family: "Poppins", "Droid Arabic Kufi", sans-serif;
+}
+
+#end-section hr {
+  margin: 0 !important;
+}
+
+/* FOOTER SECTİON */
+#footer {
+  background-color: #EAF5FE;
+  padding: 20px 0;
+}
+
+#footer .col-md-6 {
+  position: relative;
+  padding:0 !important;
+}
+
+#footer p {
+  font-size: 14px;
+  font-weight: 200 !important;
+}
+
+.social-icons {
+  position: absolute;
+  right: 0;
+  padding:0 !important;
+}
+
+.social-icons li {
+  display: inline-block;
+  padding: 10px 10px;
+}
+
+.social-icons li i {
+  color: #8a949f;
+}
+
+.social-icons li i:hover {
+  color: #1b8bf9;
+}
+
+/* RESPONSİVE CONTENT SECTİON */
+@media only screen and (max-width:800px){
+.container{
+  max-width:100%;
+}
+.col-md-4,.first-box,.second-box{
+  max-width:100%;
+  text-align: center;
+}
+#content p{
+  max-width:100%;
+}
+#content img{
+  margin:10px;
+  max-width:100%;
+}
+}
+/* RESPONSİVE PRİCİNG SECTİON */
+@media only screen and (max-width:800px) {
+  #pricing {
+    text-align: center;
+    margin: 0;
+  }
+
+  #pricing .row {
+    margin: 0;
+  }
+
+
+  #pricing p {
+    width: 100%;
+    margin-bottom: 20px;
+
+  }
+
+  #pricing h1 {
+    text-align: center;
+  }
+
+  #pricing .col-md-4 {
+    text-align: center;
+    max-width: 100%;
+  }
+}
+/* RESPONSİVE END SECTİON */
+@media only screen and (max-width: 800px) {
+  .end-section h1 {
+    font-size: 35px;
+    line-height: 45px;
+    width: 80%;
+  }
+
+  .end-section p {
+    width: 100%;
+  }
+
+
+  .call-design {}
+}
+
+/* RESPONSİVE FOOTER */
+@media only screen and (max-width: 800px) {
+  #footer .row:first-child {
+    width: 100%;
+    text-align: center;
+  }
+
+  #footer .row .social-icons {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin: 10px auto;
+  }
+}
+/* BANNER SECTİON*/
+@media only screen and (max-width:800px){
+  #banner .row .col-md-2{
+    text-align: center;
+
+  }
+}
